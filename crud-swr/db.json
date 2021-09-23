@@ -1,0 +1,19 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Fulano",
+      "telefone": "(99) 99999-9999"
+    },
+    {
+      "id": 2,
+      "nome": "Ciclano",
+      "telefone": "(99) 99999-9999"
+    },
+    {
+      "id": 3,
+      "nome": "Beltrano",
+      "telefone": "(99) 99999-9999"
+    }
+  ]
+}
