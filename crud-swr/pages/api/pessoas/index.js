@@ -4,7 +4,7 @@ export default async function handler(req, res) {
     const { method } = req
     switch (method) {
         case 'GET':
-            // console.log('GET /api/pessoas')
+            console.log('GET /api/pessoas')
             const pessoas = await findAll()
             res.status(200).json(pessoas)
             break
