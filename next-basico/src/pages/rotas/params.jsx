@@ -1,15 +1,16 @@
 
-import { useRouter } from 'next/router'
-import Link from 'next/link'
+import { useRouter } from "next/router"
+import Link from "next/link"
 
-export default function codigoNome() {
+export default function params() {
     const router = useRouter()
-    const codigo = router.query.codigo
+
+    const id = router.query.id
     const nome = router.query.nome
 
     return (
         <div>
-            <h1>Rotas / {codigo} / {nome}</h1>
+            <h1>Rotas Params: {id} e {nome}</h1>
             <Link href="/rotas">
                 <button>Voltar</button>    
             </Link>
